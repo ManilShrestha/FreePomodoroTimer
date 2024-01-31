@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A11F8F7A2B643B6600AD8928 /* chime-sound-7143.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A11F8F792B643B6600AD8928 /* chime-sound-7143.mp3 */; };
+		A1E7A74A2B62C1D700CFCC5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E7A7492B62C1D700CFCC5F /* ContentView.swift */; };
+		A1E7A74C2B62C1D900CFCC5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E7A74B2B62C1D900CFCC5F /* Assets.xcassets */; };
+		A1E7A74F2B62C1D900CFCC5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E7A74E2B62C1D900CFCC5F /* Preview Assets.xcassets */; };
+		A1E7A75A2B62C1DA00CFCC5F /* FreePomodoroTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E7A7592B62C1DA00CFCC5F /* FreePomodoroTimerTests.swift */; };
+		A1E7A7642B62C1DA00CFCC5F /* FreePomodoroTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E7A7632B62C1DA00CFCC5F /* FreePomodoroTimerUITests.swift */; };
+		A1E7A7662B62C1DA00CFCC5F /* FreePomodoroTimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E7A7652B62C1DA00CFCC5F /* FreePomodoroTimerUITestsLaunchTests.swift */; };
+		A1E7A7752B62D4DB00CFCC5F /* FreePomodoroTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E7A7742B62D4DB00CFCC5F /* FreePomodoroTimerApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1E7A7562B62C1DA00CFCC5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1E7A73C2B62C1D700CFCC5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1E7A7432B62C1D700CFCC5F;
+			remoteInfo = FreePomodoroTimer;
+		};
+		A1E7A7602B62C1DA00CFCC5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1E7A73C2B62C1D700CFCC5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1E7A7432B62C1D700CFCC5F;
+			remoteInfo = FreePomodoroTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A11F8F792B643B6600AD8928 /* chime-sound-7143.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "chime-sound-7143.mp3"; path = "../../../../Downloads/chime-sound-7143.mp3"; sourceTree = "<group>"; };
+		A1E7A7442B62C1D700CFCC5F /* Free Pomodoro Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Free Pomodoro Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E7A7492B62C1D700CFCC5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1E7A74B2B62C1D900CFCC5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1E7A74E2B62C1D900CFCC5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1E7A7502B62C1DA00CFCC5F /* FreePomodoroTimer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FreePomodoroTimer.entitlements; sourceTree = "<group>"; };
+		A1E7A7552B62C1DA00CFCC5F /* Free Pomodoro TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Free Pomodoro TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E7A7592B62C1DA00CFCC5F /* FreePomodoroTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreePomodoroTimerTests.swift; sourceTree = "<group>"; };
+		A1E7A75F2B62C1DA00CFCC5F /* Free Pomodoro TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Free Pomodoro TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E7A7632B62C1DA00CFCC5F /* FreePomodoroTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreePomodoroTimerUITests.swift; sourceTree = "<group>"; };
+		A1E7A7652B62C1DA00CFCC5F /* FreePomodoroTimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreePomodoroTimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A1E7A7742B62D4DB00CFCC5F /* FreePomodoroTimerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FreePomodoroTimerApp.swift; path = ../../../../.Trash/FreePomodoroTimerApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1E7A7412B62C1D700CFCC5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E7A7522B62C1DA00CFCC5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E7A75C2B62C1DA00CFCC5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1E7A73B2B62C1D700CFCC5F = {
+			isa = PBXGroup;
+			children = (
+				A1E7A7462B62C1D700CFCC5F /* FreePomodoroTimer */,
+				A1E7A7582B62C1DA00CFCC5F /* FreePomodoroTimerTests */,
+				A1E7A7622B62C1DA00CFCC5F /* FreePomodoroTimerUITests */,
+				A1E7A7452B62C1D700CFCC5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1E7A7452B62C1D700CFCC5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1E7A7442B62C1D700CFCC5F /* Free Pomodoro Timer.app */,
+				A1E7A7552B62C1DA00CFCC5F /* Free Pomodoro TimerTests.xctest */,
+				A1E7A75F2B62C1DA00CFCC5F /* Free Pomodoro TimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1E7A7462B62C1D700CFCC5F /* FreePomodoroTimer */ = {
+			isa = PBXGroup;
+			children = (
+				A1E7A7742B62D4DB00CFCC5F /* FreePomodoroTimerApp.swift */,
+				A1E7A7492B62C1D700CFCC5F /* ContentView.swift */,
+				A11F8F792B643B6600AD8928 /* chime-sound-7143.mp3 */,
+				A1E7A74B2B62C1D900CFCC5F /* Assets.xcassets */,
+				A1E7A7502B62C1DA00CFCC5F /* FreePomodoroTimer.entitlements */,
+				A1E7A74D2B62C1D900CFCC5F /* Preview Content */,
+			);
+			path = FreePomodoroTimer;
+			sourceTree = "<group>";
+		};
+		A1E7A74D2B62C1D900CFCC5F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A1E7A74E2B62C1D900CFCC5F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A1E7A7582B62C1DA00CFCC5F /* FreePomodoroTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1E7A7592B62C1DA00CFCC5F /* FreePomodoroTimerTests.swift */,
+			);
+			path = FreePomodoroTimerTests;
+			sourceTree = "<group>";
+		};
+		A1E7A7622B62C1DA00CFCC5F /* FreePomodoroTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1E7A7632B62C1DA00CFCC5F /* FreePomodoroTimerUITests.swift */,
+				A1E7A7652B62C1DA00CFCC5F /* FreePomodoroTimerUITestsLaunchTests.swift */,
+			);
+			path = FreePomodoroTimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1E7A7432B62C1D700CFCC5F /* Free Pomodoro Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1E7A7692B62C1DA00CFCC5F /* Build configuration list for PBXNativeTarget "Free Pomodoro Timer" */;
+			buildPhases = (
+				A1E7A7402B62C1D700CFCC5F /* Sources */,
+				A1E7A7412B62C1D700CFCC5F /* Frameworks */,
+				A1E7A7422B62C1D700CFCC5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Free Pomodoro Timer";
+			productName = FreePomodoroTimer;
+			productReference = A1E7A7442B62C1D700CFCC5F /* Free Pomodoro Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1E7A7542B62C1DA00CFCC5F /* Free Pomodoro TimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1E7A76C2B62C1DA00CFCC5F /* Build configuration list for PBXNativeTarget "Free Pomodoro TimerTests" */;
+			buildPhases = (
+				A1E7A7512B62C1DA00CFCC5F /* Sources */,
+				A1E7A7522B62C1DA00CFCC5F /* Frameworks */,
+				A1E7A7532B62C1DA00CFCC5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1E7A7572B62C1DA00CFCC5F /* PBXTargetDependency */,
+			);
+			name = "Free Pomodoro TimerTests";
+			productName = FreePomodoroTimerTests;
+			productReference = A1E7A7552B62C1DA00CFCC5F /* Free Pomodoro TimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1E7A75E2B62C1DA00CFCC5F /* Free Pomodoro TimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1E7A76F2B62C1DA00CFCC5F /* Build configuration list for PBXNativeTarget "Free Pomodoro TimerUITests" */;
+			buildPhases = (
+				A1E7A75B2B62C1DA00CFCC5F /* Sources */,
+				A1E7A75C2B62C1DA00CFCC5F /* Frameworks */,
+				A1E7A75D2B62C1DA00CFCC5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1E7A7612B62C1DA00CFCC5F /* PBXTargetDependency */,
+			);
+			name = "Free Pomodoro TimerUITests";
+			productName = FreePomodoroTimerUITests;
+			productReference = A1E7A75F2B62C1DA00CFCC5F /* Free Pomodoro TimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1E7A73C2B62C1D700CFCC5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					A1E7A7432B62C1D700CFCC5F = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					A1E7A7542B62C1DA00CFCC5F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A1E7A7432B62C1D700CFCC5F;
+					};
+					A1E7A75E2B62C1DA00CFCC5F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A1E7A7432B62C1D700CFCC5F;
+					};
+				};
+			};
+			buildConfigurationList = A1E7A73F2B62C1D700CFCC5F /* Build configuration list for PBXProject "Free Pomodoro Timer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1E7A73B2B62C1D700CFCC5F;
+			productRefGroup = A1E7A7452B62C1D700CFCC5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1E7A7432B62C1D700CFCC5F /* Free Pomodoro Timer */,
+				A1E7A7542B62C1DA00CFCC5F /* Free Pomodoro TimerTests */,
+				A1E7A75E2B62C1DA00CFCC5F /* Free Pomodoro TimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1E7A7422B62C1D700CFCC5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E7A74F2B62C1D900CFCC5F /* Preview Assets.xcassets in Resources */,
+				A1E7A74C2B62C1D900CFCC5F /* Assets.xcassets in Resources */,
+				A11F8F7A2B643B6600AD8928 /* chime-sound-7143.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E7A7532B62C1DA00CFCC5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E7A75D2B62C1DA00CFCC5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1E7A7402B62C1D700CFCC5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E7A7752B62D4DB00CFCC5F /* FreePomodoroTimerApp.swift in Sources */,
+				A1E7A74A2B62C1D700CFCC5F /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E7A7512B62C1DA00CFCC5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E7A75A2B62C1DA00CFCC5F /* FreePomodoroTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E7A75B2B62C1DA00CFCC5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E7A7642B62C1DA00CFCC5F /* FreePomodoroTimerUITests.swift in Sources */,
+				A1E7A7662B62C1DA00CFCC5F /* FreePomodoroTimerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1E7A7572B62C1DA00CFCC5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1E7A7432B62C1D700CFCC5F /* Free Pomodoro Timer */;
+			targetProxy = A1E7A7562B62C1DA00CFCC5F /* PBXContainerItemProxy */;
+		};
+		A1E7A7612B62C1DA00CFCC5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1E7A7432B62C1D700CFCC5F /* Free Pomodoro Timer */;
+			targetProxy = A1E7A7602B62C1DA00CFCC5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A1E7A7672B62C1DA00CFCC5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1E7A7682B62C1DA00CFCC5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A1E7A76A2B62C1DA00CFCC5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FreePomodoroTimer/FreePomodoroTimer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FreePomodoroTimer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = impactAI.FreePomodoroTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A1E7A76B2B62C1DA00CFCC5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FreePomodoroTimer/FreePomodoroTimer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FreePomodoroTimer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = impactAI.FreePomodoroTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A1E7A76D2B62C1DA00CFCC5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = impactAI.FreePomodoroTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Free Pomodoro Timer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Free Pomodoro Timer";
+			};
+			name = Debug;
+		};
+		A1E7A76E2B62C1DA00CFCC5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = impactAI.FreePomodoroTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Free Pomodoro Timer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Free Pomodoro Timer";
+			};
+			name = Release;
+		};
+		A1E7A7702B62C1DA00CFCC5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = impactAI.FreePomodoroTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = FreePomodoroTimer;
+			};
+			name = Debug;
+		};
+		A1E7A7712B62C1DA00CFCC5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = impactAI.FreePomodoroTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = FreePomodoroTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1E7A73F2B62C1D700CFCC5F /* Build configuration list for PBXProject "Free Pomodoro Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E7A7672B62C1DA00CFCC5F /* Debug */,
+				A1E7A7682B62C1DA00CFCC5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1E7A7692B62C1DA00CFCC5F /* Build configuration list for PBXNativeTarget "Free Pomodoro Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E7A76A2B62C1DA00CFCC5F /* Debug */,
+				A1E7A76B2B62C1DA00CFCC5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1E7A76C2B62C1DA00CFCC5F /* Build configuration list for PBXNativeTarget "Free Pomodoro TimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E7A76D2B62C1DA00CFCC5F /* Debug */,
+				A1E7A76E2B62C1DA00CFCC5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1E7A76F2B62C1DA00CFCC5F /* Build configuration list for PBXNativeTarget "Free Pomodoro TimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E7A7702B62C1DA00CFCC5F /* Debug */,
+				A1E7A7712B62C1DA00CFCC5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1E7A73C2B62C1D700CFCC5F /* Project object */;
+}
