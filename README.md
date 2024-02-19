@@ -13,6 +13,7 @@ Instruction:
 
 You might have to resize the window the first time to your preference, this will be defaulted from the next startup.
 
-App UI:
+App User Interface is very easy, as intended:
+
 <img width="330" alt="image" src="https://github.com/ManilShrestha/FreePomodoroTimer/assets/20830075/22b62e97-64b7-4512-a241-e83bf7698e9c">
 
